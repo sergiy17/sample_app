@@ -13,3 +13,8 @@ module SampleApp
     # -- all .rb files in that directory are automatically loaded.
   end
 end
+
+# console do
+# 	require "pry"
+# 	config.console = Pry
+# end

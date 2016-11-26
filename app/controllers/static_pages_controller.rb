@@ -3,6 +3,8 @@ class StaticPagesController < ApplicationController
   end
 
   def help
+  	# @a = 3
+  	# binding.pry
   end
 
   def about
