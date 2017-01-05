@@ -11,6 +11,7 @@ Time now: <%= Time.now %>
         <%= gravatar_for @user %>
         <%= @user.name %>
         <%= @user.email %>
+        <%= @user.password_digest %>
       </h1>
     </section>
   </aside>
