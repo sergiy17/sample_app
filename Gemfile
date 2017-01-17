@@ -22,6 +22,9 @@ group :development do
   gem 'spring',                '1.7.2'
   gem 'spring-watcher-listen', '2.0.0'
   gem 'rspec-rails'
+  gem 'faker',                 '1.6.6'
+  gem 'will_paginate',         '3.1.0'
+  gem 'bootstrap-will_paginate','0.0.10'
 end
 
 group :test do
